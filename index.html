@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Fonts Pre Connect -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+        <!--font awesome icons-->
+        <script src="https://kit.fontawesome.com/a784a0246f.js" crossorigin="anonymous"></script>
+        <!-- CSS Files Links -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- Title -->
+        <title>Simple Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <form id="form">
+                <div class="title">Get Started</div>
+                <!-- /**
+        * ! user name input
+         **/ -->
+                <div>
+                    <label for="username">User Name</label>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="username" id="username" placeholder="Shivam Jiwal">
+                    <i class="fa-solid fa-circle-exclamation  failure-icon"></i>
+                    <i class="fa-solid fa-circle-check  success-icon"></i>
+                    <div class="error"></div>
+                </div>
+                <!-- /**
+        * ! Email input
+         **/ -->
+                <div>
+                    <label for="email">Email</label>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                    <i class="fa-solid fa-circle-exclamation  failure-icon"></i>
+                    <i class="fa-solid fa-circle-check  success-icon"></i>
+                    <div class="error"></div>
+                </div>
+                <!-- /**
+        * ! Email input
+         **/ -->
+                <div>
+                    <label for="password">Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password here">
+                    <i class="fa-solid fa-circle-exclamation  failure-icon"></i>
+                    <i class="fa-solid fa-circle-check  success-icon"></i>
+                    <div class="error"></div>
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+    <noscript>Your browser don't support JavaScript!</noscript>
+    <script src="./main.js"></script>
+</html>
